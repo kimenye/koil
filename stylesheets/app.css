@@ -7712,7 +7712,7 @@ th.hide-for-touch {
 
 /* line 7, ../scss/app.scss */
 #header {
-  height: 90px;
+  height: 60px;
   padding: 0px;
   font-size: 0.875rem;
   color: #3C3C3B;
@@ -7924,4 +7924,39 @@ th.hide-for-touch {
 /* line 142, ../scss/app.scss */
 .contact_us .search_bar .search_form input[type="text"] {
   height: 2rem;
+}
+
+/* line 149, ../scss/app.scss */
+article h5 {
+  color: #d40e14;
+}
+
+/* line 154, ../scss/app.scss */
+article ul {
+  list-style: none;
+  margin-left: 0px;
+}
+
+/* line 159, ../scss/app.scss */
+.content {
+  margin: 3em 0 3em 0;
+}
+
+/* line 164, ../scss/app.scss */
+.banner {
+  width: 100%;
+  height: 160px;
+  overflow: hiden;
+  position: relative;
+  min-height: 120px;
+}
+/* line 171, ../scss/app.scss */
+.banner img {
+  width: 100%;
+}
+/* line 176, ../scss/app.scss */
+.banner .text {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
 }

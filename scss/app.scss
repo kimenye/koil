@@ -4,7 +4,7 @@
 .row{
   max-width: 80rem;
 }
-#header{ height: 90px; padding: 0px; font-size:0.875rem ; color: #3C3C3B; position: relative;
+#header{ height: 60px; padding: 0px; font-size:0.875rem ; color: #3C3C3B; position: relative;
   .logo{ float: left; padding: 10px 0 0 0;}
   .nav{
     ul{ list-style: none; float:left; margin: 0 20px 0 0;}
@@ -143,5 +143,39 @@
         height: 2rem;
       }
     }
+  }
+}
+
+article h5 {
+  color: rgb(212, 14, 20);
+}
+
+
+article ul {
+  list-style: none;
+  margin-left: 0px;
+}
+
+.content {
+  margin: 3em 0 3em 0;
+}
+
+
+.banner{
+  width: 100%;
+  height: 160px;
+  overflow: hiden;
+  position: relative;
+  min-height: 120px;
+
+  img {
+    width: 100%
+
+  }
+
+  .text {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
   }
 }
