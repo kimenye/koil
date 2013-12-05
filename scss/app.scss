@@ -124,3 +124,24 @@
     }
   }
 }
+
+.contact_us {
+  .search_bar {
+    background: #EBEBEB;
+    width: 100%;
+
+    p {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .search_form {
+      border-left: 1px solid #929497;
+      padding-top: 10px;
+
+      input[type="text"] {
+        height: 2rem;
+      }
+    }
+  }
+}

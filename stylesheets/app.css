@@ -7905,3 +7905,23 @@ th.hide-for-touch {
 .copyright p a {
   color: #ffffff;
 }
+
+/* line 129, ../scss/app.scss */
+.contact_us .search_bar {
+  background: #EBEBEB;
+  width: 100%;
+}
+/* line 133, ../scss/app.scss */
+.contact_us .search_bar p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 138, ../scss/app.scss */
+.contact_us .search_bar .search_form {
+  border-left: 1px solid #929497;
+  padding-top: 10px;
+}
+/* line 142, ../scss/app.scss */
+.contact_us .search_bar .search_form input[type="text"] {
+  height: 2rem;
+}
