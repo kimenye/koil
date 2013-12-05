@@ -7912,37 +7912,48 @@ th.hide-for-touch {
   width: 100%;
 }
 /* line 133, ../scss/app.scss */
-.contact_us .search_bar p {
-  margin-top: 10px;
+.contact_us .search_bar label.instruction {
+  padding-top: 20px;
+  padding-bottom: 10px;
   margin-bottom: 10px;
 }
-/* line 138, ../scss/app.scss */
+/* line 139, ../scss/app.scss */
 .contact_us .search_bar .search_form {
   border-left: 1px solid #929497;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
-/* line 142, ../scss/app.scss */
+/* line 144, ../scss/app.scss */
+.contact_us .search_bar .search_form input {
+  margin-bottom: 0px;
+}
+/* line 148, ../scss/app.scss */
 .contact_us .search_bar .search_form input[type="text"] {
   height: 2rem;
+  margin-bottom: 0px;
+}
+/* line 153, ../scss/app.scss */
+.contact_us .search_bar .search_form label {
+  margin-bottom: 0px;
 }
 
-/* line 149, ../scss/app.scss */
+/* line 160, ../scss/app.scss */
 article h5 {
   color: #d40e14;
 }
 
-/* line 154, ../scss/app.scss */
+/* line 165, ../scss/app.scss */
 article ul {
   list-style: none;
   margin-left: 0px;
 }
 
-/* line 159, ../scss/app.scss */
+/* line 170, ../scss/app.scss */
 .content {
   margin: 3em 0 3em 0;
 }
 
-/* line 164, ../scss/app.scss */
+/* line 175, ../scss/app.scss */
 .banner {
   width: 100%;
   height: 160px;
@@ -7950,11 +7961,11 @@ article ul {
   position: relative;
   min-height: 120px;
 }
-/* line 171, ../scss/app.scss */
+/* line 182, ../scss/app.scss */
 .banner img {
   width: 100%;
 }
-/* line 176, ../scss/app.scss */
+/* line 187, ../scss/app.scss */
 .banner .text {
   position: absolute;
   bottom: 20px;
