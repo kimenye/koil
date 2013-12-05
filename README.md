@@ -1,4 +1,8 @@
-# Foundation Compass Template
+============
+KOIL WEBSITE
+============
+
+Kenya Orient Website
 
 The easiest way to get started with Foundation + Compass.
 
