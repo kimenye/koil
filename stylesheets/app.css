@@ -7712,7 +7712,7 @@ th.hide-for-touch {
 
 /* line 7, ../scss/app.scss */
 #header {
-  height: 90px;
+  height: 60px;
   padding: 0px;
   font-size: 0.875rem;
   color: #3C3C3B;
@@ -7802,102 +7802,212 @@ th.hide-for-touch {
 #slider .row {
   max-width: none;
 }
+/* line 36, ../scss/app.scss */
+#slider .example-orbit div {
+  background: url("../img/slider_bg.png") left no-repeat;
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  max-width: 40rem;
+  margin: 5rem 20rem;
+}
+/* line 37, ../scss/app.scss */
+#slider .example-orbit div h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+/* line 38, ../scss/app.scss */
+#slider .example-orbit div p {
+  font-size: 1.1rem;
+}
 
 /**/
-/* line 38, ../scss/app.scss */
+/* line 42, ../scss/app.scss */
 .orbit-container .orbit-slides-container {
   overflow: hidden;
   max-height: 520px !important;
 }
 
-/* line 42, ../scss/app.scss */
+/* line 46, ../scss/app.scss */
 .orbit-container .orbit-slides-container img {
   width: 100%;
 }
 
-/**/
-/* line 45, ../scss/app.scss */
-#products h3 {
-  font-size: 15px;
+/**Universal selectors**/
+/* line 48, ../scss/app.scss */
+h3 {
+  font-size: 1rem;
   font-weight: 400;
 }
-/* line 46, ../scss/app.scss */
-#products p {
+
+/* line 49, ../scss/app.scss */
+p {
   font-size: 14px;
   font-weight: 300;
 }
 
-/* line 49, ../scss/app.scss */
+/* line 50, ../scss/app.scss */
+.button {
+  background: #19296C;
+}
+
+/*products grid*/
+/* line 54, ../scss/app.scss */
+#products .img img {
+  width: 100%;
+}
+/* line 56, ../scss/app.scss */
+#products .content {
+  padding: 10px;
+  background: #EBEBEB;
+  border-bottom: 2px solid #f00;
+}
+/* line 58, ../scss/app.scss */
+#products .content a.button {
+  margin: 0 auto;
+  display: block;
+  width: 105px;
+}
+
+/**/
+/* line 63, ../scss/app.scss */
+#info .columns {
+  padding: 0 0.7rem 0 0.9rem;
+}
+/* line 64, ../scss/app.scss */
+#info .wrapper {
+  background: #EBEBEB;
+  height: 140px;
+  border-left: 2px solid #f00;
+  padding: 5px 0 0 0;
+}
+/* line 66, ../scss/app.scss */
+#info .img, #info .open {
+  margin-top: 40px;
+  height: 100px;
+}
+/* line 68, ../scss/app.scss */
+#info .img img, #info .open img {
+  vertical-align: center;
+}
+
+/****/
+/* line 73, ../scss/app.scss */
+#notice h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 65px;
+}
+/* line 74, ../scss/app.scss */
+#notice .wrapper {
+  background: #EBEBEB;
+  height: 90px;
+  border-left: 2px solid #f00;
+  padding: 5px 0 0 0;
+}
+/* line 75, ../scss/app.scss */
+#notice p {
+  margin: 3px 0 0 0;
+}
+/* line 76, ../scss/app.scss */
+#notice .img, #notice .open {
+  margin-top: 15px;
+  height: 30px;
+}
+/* line 78, ../scss/app.scss */
+#notice .img img, #notice .open img {
+  vertical-align: center;
+}
+
+/****/
+/* line 82, ../scss/app.scss */
 #navM {
   background: #EBEBEB;
   margin-bottom: 30px;
 }
-/* line 53, ../scss/app.scss */
+/* line 85, ../scss/app.scss */
+#navM a {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0 0.75rem;
+  color: #19296C;
+}
+/* line 87, ../scss/app.scss */
+#navM .active a {
+  background: none;
+  font-weight: 600;
+  color: #f00;
+}
+/* line 87, ../scss/app.scss */
+#navM .active a:hover {
+  cursor: pointer;
+}
+/* line 89, ../scss/app.scss */
 #navM .sub-nav {
   margin: 10px auto;
   padding-top: 4px;
 }
 
-/* line 60, ../scss/app.scss */
+/* line 96, ../scss/app.scss */
 .home .orbit-container .orbit-timer {
   display: none;
 }
 
 /** Footer **/
-/* line 66, ../scss/app.scss */
+/* line 102, ../scss/app.scss */
 .footer {
   border-top: 3px solid #d41117;
   padding-top: 20px;
   background-color: #3d437b;
 }
-/* line 71, ../scss/app.scss */
+/* line 107, ../scss/app.scss */
 .footer .vcard {
   color: #ffffff;
   border: none;
   padding: 0.625em 0;
 }
-/* line 76, ../scss/app.scss */
+/* line 112, ../scss/app.scss */
 .footer .vcard a, .footer .vcard .tel {
   color: #5c686f;
   font-weight: bold;
 }
-/* line 82, ../scss/app.scss */
+/* line 118, ../scss/app.scss */
 .footer a {
   color: #bcbec0;
   font-size: 0.9em;
 }
-/* line 87, ../scss/app.scss */
+/* line 123, ../scss/app.scss */
 .footer p, .footer li {
   font-size: 0.8em;
 }
-/* line 92, ../scss/app.scss */
+/* line 128, ../scss/app.scss */
 .footer .links li {
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
-/* line 98, ../scss/app.scss */
+/* line 134, ../scss/app.scss */
 .footer h6, .footer p {
   color: #ffffff;
   font-weight: 300;
   margin-top: 8px;
 }
-/* line 104, ../scss/app.scss */
+/* line 140, ../scss/app.scss */
 .footer p {
   margin-bottom: 0.5em;
 }
 
-/* line 109, ../scss/app.scss */
+/* line 145, ../scss/app.scss */
 .copyright {
   background-color: #202767;
 }
-/* line 112, ../scss/app.scss */
+/* line 148, ../scss/app.scss */
 .copyright p {
   color: #ffffff;
   font-size: .8em;
   padding: 0.9em 0;
   margin-bottom: 0px;
 }
-/* line 118, ../scss/app.scss */
+/* line 154, ../scss/app.scss */
 .copyright p a {
   color: #ffffff;
 }
