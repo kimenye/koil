@@ -7826,3 +7826,78 @@ th.hide-for-touch {
   font-size: 14px;
   font-weight: 300;
 }
+
+/* line 49, ../scss/app.scss */
+#navM {
+  background: #EBEBEB;
+  margin-bottom: 30px;
+}
+/* line 53, ../scss/app.scss */
+#navM .sub-nav {
+  margin: 10px auto;
+  padding-top: 4px;
+}
+
+/* line 60, ../scss/app.scss */
+.home .orbit-container .orbit-timer {
+  display: none;
+}
+
+/** Footer **/
+/* line 66, ../scss/app.scss */
+.footer {
+  border-top: 3px solid #d41117;
+  padding-top: 20px;
+  background-color: #3d437b;
+}
+/* line 71, ../scss/app.scss */
+.footer .vcard {
+  color: #ffffff;
+  border: none;
+  padding: 0.625em 0;
+}
+/* line 76, ../scss/app.scss */
+.footer .vcard a, .footer .vcard .tel {
+  color: #5c686f;
+  font-weight: bold;
+}
+/* line 82, ../scss/app.scss */
+.footer a {
+  color: #bcbec0;
+  font-size: 0.9em;
+}
+/* line 87, ../scss/app.scss */
+.footer p, .footer li {
+  font-size: 0.8em;
+}
+/* line 92, ../scss/app.scss */
+.footer .links li {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+/* line 98, ../scss/app.scss */
+.footer h6, .footer p {
+  color: #ffffff;
+  font-weight: 300;
+  margin-top: 8px;
+}
+/* line 104, ../scss/app.scss */
+.footer p {
+  margin-bottom: 0.5em;
+}
+
+/* line 109, ../scss/app.scss */
+.copyright {
+  background-color: #202767;
+}
+/* line 112, ../scss/app.scss */
+.copyright p {
+  color: #ffffff;
+  font-size: .8em;
+  padding: 0.9em 0;
+  margin-bottom: 0px;
+}
+/* line 118, ../scss/app.scss */
+.copyright p a {
+  color: #ffffff;
+}

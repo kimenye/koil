@@ -8,7 +8,7 @@
      <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
     <script src="js/modernizr.js"></script>
   </head>
-  <body>
+  <body class="home">
     
     <div id="header" class="row">
      <div class="logo left">
@@ -35,7 +35,7 @@
     <div id="slider">
         <div class="row">
       <div class="large-12 columns">
-          <ul class="example-orbit" data-orbit>
+          <ul class="example-orbit" data-orbit data-options="bullets:false;">
               <li>
                   <img src="img/home.png" alt="slide 1" />
                   <div class="orbit-caption">
@@ -58,26 +58,29 @@
       </div>
      </div>
     </div>
-    <div id="navM" class="row">
-        <div class="large-12 columns">
-            <ul class="example-orbit" data-orbit>
-                <li>
-                  <a href="">Personal Products</a>
-                </li>
-                <li>
-                    <a href="">business products</a>
-                </li>
-                <li>
-                    <a href="">Corporate packages</a>
-                </li>
-                <li>
-                    <a href="">special plans</a>
-                </li>
-                <li>
-                    <a href="">custom schemes</a>
-                </li>
-            </ul>
+    <div id="navM">
+      <div class="row">
+        <div class="large-8 large-centered columns">
+            <!--<ul class="example-orbit" data-orbit>-->
+            <dl class="sub-nav">
+              <dd class="active">
+                <a href="">Personal Products</a>
+              </dd>
+              <dd>
+                <a href="">Business Products</a>
+              </dd>
+              <dd>
+                <a href="">Corporate Packages</a>
+              </dd>
+              <dd>
+                <a href="">Special Plans</a>
+              </dd>
+              <dd>
+                <a href="">Custom Schemes</a>
+              </dd>
+            </dl>
         </div>
+      </div>
     </div>
    <div id="products" class="row">
      <ul class="small-block-grid-4">
@@ -182,6 +185,93 @@
 
         </ul>
     </div>
+
+    <div class="footer">
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="row">
+            <div class="large-3 columns">
+              <ul class="vcard">
+                <li>Corporate Headquarters</li>
+                <li class="street-address">6th Floor, Nairobi, Kenya</li>
+                <li class="street-address">CONTACT. 020 2962000</li>
+                <li class="street-address">Email:
+                  <a href="mailto:info@korient.co.ke">info@korient.co.ke</a>
+                </li>                
+              </ul>
+            </div>
+            <div class="large-3 columns">
+              <h6>QUICK LINKS</h6>
+              <ul class="large-block-grid-2.small-block-grid-2.links">
+                <li>
+                  <a>Our Team</a>
+                </li>
+                <li>
+                  <a>Our Team</a>
+                </li>
+                <li>
+                  <a>Our Team</a>
+                </li>
+                <li>
+                  <a>Our Team</a>
+                </li>
+                <li>
+                  <a>Our Team</a>
+                </li>
+              </ul>                
+            </div>
+            <div class="large-4 columns">
+              <p>Sign up to our newsletter:</p>
+              <form>
+                <div class="row collapse">
+                  <div class="large-8.columns">
+                    <input type="email" placeholder="Your Email *" />                    
+                  </div>
+                  <div class="large-4.columns">
+                    <input type="submit" class="button postfix expand signup" value="Sign Up" />
+                  </div>
+                </div>  
+              </form>
+            </div>
+            <div class="large-2 columns">
+              <p>
+                We are social too
+              </p>
+              <ul class="large-block-grid-4">
+                <li>
+                  <a class="facebook" href="" />
+                </li>
+                <li>
+                  <a class="twitter" href="" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="row">
+        <div class="large-10 columns">
+          <p>
+            Copyright &copy; Kenya Orient Insurance Limited
+          </p>
+        </div>
+        <div class="large-2 columns">
+          <p>
+            <a>
+              Terms
+            </a>
+            &nbsp;|&nbsp;
+            <a>
+              Privacy
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+
     <script src="js/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
