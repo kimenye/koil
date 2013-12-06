@@ -8142,7 +8142,7 @@ article .large-12 p {
   margin-top: 66px;
 }
 
-/* line 240, ../scss/app.scss */
+/* line 243, ../scss/app.scss */
 .banner {
   width: 100%;
   height: 160px;
@@ -8150,13 +8150,48 @@ article .large-12 p {
   position: relative;
   min-height: 120px;
 }
-/* line 247, ../scss/app.scss */
+/* line 250, ../scss/app.scss */
 .banner img {
   width: 100%;
 }
-/* line 252, ../scss/app.scss */
+/* line 255, ../scss/app.scss */
 .banner .text {
   position: absolute;
   bottom: 20px;
   left: 30px;
+}
+
+/* line 262, ../scss/app.scss */
+.banner-search {
+  background: #3d437b;
+  width: 100%;
+  height: 160px;
+}
+/* line 267, ../scss/app.scss */
+.banner-search .text {
+  color: #fff;
+  padding-top: 120px;
+  padding-left: 1em;
+}
+
+/* line 274, ../scss/app.scss */
+.content-search h5 {
+  color: #3d437b;
+  padding-left: 1em;
+}
+
+/* line 279, ../scss/app.scss */
+.content-search h4 {
+  color: #3d437b;
+}
+
+/* line 283, ../scss/app.scss */
+.content-search p {
+  padding-left: 1em;
+}
+
+/* line 287, ../scss/app.scss */
+.prod {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 2em;
 }

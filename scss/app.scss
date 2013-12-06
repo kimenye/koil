@@ -237,6 +237,9 @@ article .large-12 p{ float: left; margin:5px 50px 0 0;}
   .wrapper{ background:#EBEBEB; display:block; overflow:hidden; border-left: 2px solid #f00; padding: 5px 0 0 0;}
 .img{ margin-top: 66px;}
 }
+
+
+
 .banner{
   width: 100%;
   height: 160px;
@@ -254,4 +257,34 @@ article .large-12 p{ float: left; margin:5px 50px 0 0;}
     bottom: 20px;
     left: 30px;
   }
+}
+
+.banner-search {
+  background: rgb(61, 67, 123);
+  width: 100%;
+  height: 160px;
+
+  .text {
+    color: #fff;
+    padding-top: 120px;
+    padding-left: 1em;
+  }
+}
+
+.content-search h5 {
+  color: rgb(61, 67, 123);
+  padding-left: 1em;
+}
+
+.content-search h4 {
+  color: rgb(61, 67, 123);
+}
+
+.content-search p {
+  padding-left: 1em;
+}
+
+.prod {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 2em;
 }
