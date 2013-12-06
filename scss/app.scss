@@ -248,8 +248,9 @@ article .large-12 p{ float: left; margin:5px 50px 0 0;}
   min-height: 120px;
 
   img {
-    width: 100%
-
+    width: 100%;
+    min-width: 2000px;
+    float: right;
   }
 
   .text {
@@ -266,11 +267,27 @@ article .large-12 p{ float: left; margin:5px 50px 0 0;}
     h2 {
       color: #ffffff;
       margin-bottom: 0px;
+      padding: 0px;
+    }
+
+    img {
+      width: 100%;
     }
 
     .breadcrumbs {
       margin-bottom: 0px;
+      border-style: none;
+      border-width: 0px;
+      background-color: transparent;
+      padding: 0px;
+
     }
+
+    .breadcrumbs > * a, .breadcrumbs > * a:hover, .breadcrumbs > *:before{
+      color: #ffffff;
+      font-size: 15px;
+
+      }
   }
 }
 

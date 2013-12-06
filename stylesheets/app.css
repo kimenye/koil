@@ -8153,51 +8153,67 @@ article .large-12 p {
 /* line 250, ../scss/app.scss */
 .banner img {
   width: 100%;
+  min-width: 2000px;
+  float: right;
 }
-/* line 255, ../scss/app.scss */
+/* line 256, ../scss/app.scss */
 .banner .text {
   position: absolute;
   bottom: 20px;
   left: 30px;
 }
-/* line 261, ../scss/app.scss */
+/* line 262, ../scss/app.scss */
 .banner .page {
   position: absolute;
   bottom: 20px;
   left: 30px;
 }
-/* line 266, ../scss/app.scss */
+/* line 267, ../scss/app.scss */
 .banner .page h2 {
   color: #ffffff;
   margin-bottom: 0px;
+  padding: 0px;
 }
-/* line 271, ../scss/app.scss */
+/* line 273, ../scss/app.scss */
+.banner .page img {
+  width: 100%;
+}
+/* line 277, ../scss/app.scss */
 .banner .page .breadcrumbs {
   margin-bottom: 0px;
+  border-style: none;
+  border-width: 0px;
+  background-color: transparent;
+  padding: 0px;
+}
+/* line 286, ../scss/app.scss */
+.banner .page .breadcrumbs > * a, .banner .page .breadcrumbs > * a:hover, .banner .page .breadcrumbs > *:before {
+  color: #ffffff;
+  font-size: 15px;
 }
 
-/* line 278, ../scss/app.scss */
+/* line 295, ../scss/app.scss */
 .search .banner {
   background: #3d437b;
 }
 
-/* line 283, ../scss/app.scss */
+/* line 300, ../scss/app.scss */
 .content-search h5 {
   color: #3d437b;
   padding-left: 1em;
 }
 
-/* line 288, ../scss/app.scss */
+/* line 305, ../scss/app.scss */
 .content-search h4 {
   color: #3d437b;
 }
 
-/* line 292, ../scss/app.scss */
+/* line 309, ../scss/app.scss */
 .content-search p {
   padding-left: 1em;
 }
 
-/* line 296, ../scss/app.scss */
+/* line 313, ../scss/app.scss */
 .prod {
   border-bottom: 1px solid #aaa;
   margin-bottom: 2em;
