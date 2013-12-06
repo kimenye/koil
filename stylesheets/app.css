@@ -7960,3 +7960,38 @@ article ul {
   bottom: 20px;
   left: 30px;
 }
+
+/* line 183, ../scss/app.scss */
+.banner-search {
+  background: #3d437b;
+  width: 100%;
+  height: 160px;
+}
+/* line 188, ../scss/app.scss */
+.banner-search .text {
+  color: #fff;
+  padding-top: 120px;
+  padding-left: 1em;
+}
+
+/* line 195, ../scss/app.scss */
+.content-search h5 {
+  color: #3d437b;
+  padding-left: 1em;
+}
+
+/* line 200, ../scss/app.scss */
+.content-search h4 {
+  color: #3d437b;
+}
+
+/* line 204, ../scss/app.scss */
+.content-search p {
+  padding-left: 1em;
+}
+
+/* line 208, ../scss/app.scss */
+.prod {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 2em;
+}
