@@ -8218,3 +8218,71 @@ article .large-12 p {
   border-bottom: 1px solid #aaa;
   margin-bottom: 2em;
 }
+
+/*COMING SOON*/
+/* line 319, ../scss/app.scss */
+.coming_soon .header {
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+/* line 325, ../scss/app.scss */
+.coming_soon .header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 332, ../scss/app.scss */
+.coming_soon .mid_section {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  background-color: #3d437b;
+}
+/* line 338, ../scss/app.scss */
+.coming_soon .mid_section .small-12 {
+  color: #fff;
+}
+/* line 341, ../scss/app.scss */
+.coming_soon .mid_section .small-12 .small-3 {
+  border-right: 2px solid #fff;
+}
+/* line 344, ../scss/app.scss */
+.coming_soon .mid_section .small-12 .small-3 h6 {
+  color: #fff;
+}
+/* line 350, ../scss/app.scss */
+.coming_soon .mid_section ul {
+  list-style: none;
+}
+/* line 353, ../scss/app.scss */
+.coming_soon .mid_section ul li {
+  padding: 2px;
+}
+
+/* line 360, ../scss/app.scss */
+.coming_soon .holder {
+  position: relative;
+}
+/* line 363, ../scss/app.scss */
+.coming_soon .holder img {
+  position: relative;
+  width: 100%;
+}
+/* line 368, ../scss/app.scss */
+.coming_soon .holder .text {
+  position: absolute;
+  width: 40%;
+  top: 0;
+  height: 100%;
+  background: rgba(100, 10, 0, 0.7);
+  padding: 10px;
+  right: 0;
+  color: #aaa;
+}
+/* line 378, ../scss/app.scss */
+.coming_soon .holder .text h5 {
+  text-decoration: underline;
+  color: #aaa;
+}
