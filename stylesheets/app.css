@@ -8225,52 +8225,77 @@ article .large-12 p {
   clear: both;
   display: block;
   overflow: hidden;
+  margin-bottom: -3px;
 }
-/* line 325, ../scss/app.scss */
+/* line 326, ../scss/app.scss */
+.coming_soon .header iframe {
+  width: 100%;
+}
+/* line 330, ../scss/app.scss */
 .coming_soon .header img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  margin-left: -60px;
 }
 
-/* line 332, ../scss/app.scss */
+/* line 338, ../scss/app.scss */
 .coming_soon .mid_section {
   clear: both;
   display: block;
   overflow: hidden;
   background-color: #3d437b;
 }
-/* line 338, ../scss/app.scss */
-.coming_soon .mid_section .small-12 {
+/* line 344, ../scss/app.scss */
+.coming_soon .mid_section .large-block-grid-4 {
   color: #fff;
 }
-/* line 341, ../scss/app.scss */
-.coming_soon .mid_section .small-12 .small-3 {
+/* line 347, ../scss/app.scss */
+.coming_soon .mid_section .large-block-grid-4 .small-3 {
   border-right: 2px solid #fff;
 }
-/* line 344, ../scss/app.scss */
-.coming_soon .mid_section .small-12 .small-3 h6 {
-  color: #fff;
-}
 /* line 350, ../scss/app.scss */
+.coming_soon .mid_section .large-block-grid-4 .small-3 h6 {
+  color: #fff;
+  padding: 32px;
+}
+/* line 357, ../scss/app.scss */
 .coming_soon .mid_section ul {
   list-style: none;
 }
-/* line 353, ../scss/app.scss */
+/* line 360, ../scss/app.scss */
 .coming_soon .mid_section ul li {
   padding: 2px;
 }
+/* line 364, ../scss/app.scss */
+.coming_soon .mid_section ul .social_soon {
+  padding-top: 28px;
+}
+/* line 366, ../scss/app.scss */
+.coming_soon .mid_section ul .social_soon li {
+  float: left;
+}
+/* line 371, ../scss/app.scss */
+.coming_soon .mid_section ul .location {
+  padding: 4px;
+  padding-top: 5px;
+}
+/* line 377, ../scss/app.scss */
+.coming_soon .mid_section ul .contact {
+  padding: 19px;
+}
 
-/* line 360, ../scss/app.scss */
+/* line 384, ../scss/app.scss */
 .coming_soon .holder {
   position: relative;
 }
-/* line 363, ../scss/app.scss */
+/* line 387, ../scss/app.scss */
 .coming_soon .holder img {
   position: relative;
   width: 100%;
+  height: 600px;
 }
-/* line 368, ../scss/app.scss */
+/* line 393, ../scss/app.scss */
 .coming_soon .holder .text {
   position: absolute;
   width: 40%;
@@ -8281,7 +8306,7 @@ article .large-12 p {
   right: 0;
   color: #aaa;
 }
-/* line 378, ../scss/app.scss */
+/* line 403, ../scss/app.scss */
 .coming_soon .holder .text h5 {
   text-decoration: underline;
   color: #aaa;
