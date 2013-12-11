@@ -8242,60 +8242,70 @@ article .large-12 p {
 /* line 338, ../scss/app.scss */
 .coming_soon .mid_section {
   clear: both;
-  display: block;
   overflow: hidden;
   background-color: #3d437b;
+  color: #fff;
 }
 /* line 344, ../scss/app.scss */
-.coming_soon .mid_section .large-block-grid-4 {
-  color: #fff;
-}
-/* line 347, ../scss/app.scss */
-.coming_soon .mid_section .large-block-grid-4 .small-3 {
-  border-right: 2px solid #fff;
-}
-/* line 350, ../scss/app.scss */
-.coming_soon .mid_section .large-block-grid-4 .small-3 h6 {
-  color: #fff;
-  padding: 32px;
-}
-/* line 357, ../scss/app.scss */
 .coming_soon .mid_section ul {
   list-style: none;
 }
+/* line 348, ../scss/app.scss */
+.coming_soon .mid_section h6 {
+  color: #fff;
+  margin-top: 12%;
+  text-align: center;
+  padding: 1.6%;
+}
+/* line 355, ../scss/app.scss */
+.coming_soon .mid_section .social_soon {
+  width: 150px;
+  margin: 0 auto;
+}
 /* line 360, ../scss/app.scss */
-.coming_soon .mid_section ul li {
-  padding: 2px;
-}
-/* line 364, ../scss/app.scss */
-.coming_soon .mid_section ul .social_soon {
-  padding-top: 28px;
-}
-/* line 366, ../scss/app.scss */
-.coming_soon .mid_section ul .social_soon li {
+.coming_soon .mid_section .social_soon li {
   float: left;
+  margin-left: 15%;
+  margin-top: 20%;
 }
-/* line 371, ../scss/app.scss */
-.coming_soon .mid_section ul .location {
-  padding: 4px;
-  padding-top: 5px;
+/* line 368, ../scss/app.scss */
+.coming_soon .mid_section .location {
+  border-right: 1px solid #fff;
 }
-/* line 377, ../scss/app.scss */
-.coming_soon .mid_section ul .contact {
-  padding: 19px;
+/* line 372, ../scss/app.scss */
+.coming_soon .mid_section .contact {
+  padding: 1.7%;
+}
+/* line 376, ../scss/app.scss */
+.coming_soon .mid_section .contacts {
+  border-right: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+}
+/* line 380, ../scss/app.scss */
+.coming_soon .mid_section .contacts .vcard {
+  border: 0px;
+}
+/* line 385, ../scss/app.scss */
+.coming_soon .mid_section .main {
+  /*border-right: 1px solid #fff;*/
+}
+/* line 389, ../scss/app.scss */
+.coming_soon .mid_section .social-soon-wrap {
+  padding: 1.2%;
+  /*border-left: 1px solid #fff;*/
 }
 
-/* line 384, ../scss/app.scss */
+/* line 398, ../scss/app.scss */
 .coming_soon .holder {
   position: relative;
 }
-/* line 387, ../scss/app.scss */
+/* line 401, ../scss/app.scss */
 .coming_soon .holder img {
   position: relative;
   width: 100%;
   height: 600px;
 }
-/* line 393, ../scss/app.scss */
+/* line 407, ../scss/app.scss */
 .coming_soon .holder .text {
   position: absolute;
   width: 40%;
@@ -8306,8 +8316,29 @@ article .large-12 p {
   right: 0;
   color: #aaa;
 }
-/* line 403, ../scss/app.scss */
+/* line 417, ../scss/app.scss */
 .coming_soon .holder .text h5 {
   text-decoration: underline;
   color: #aaa;
+}
+
+/* line 425, ../scss/app.scss */
+.coming_soon .orbit-container .orbit-bullets-container, .coming_soon .orbit-container .orbit-slide-number, .coming_soon .orbit-container .orbit-timer, .coming_soon .orbit-container .paused {
+  display: none;
+}
+
+@media only screen and (max-width: 40em) {
+  /* line 431, ../scss/app.scss */
+  body, .coming_soon .mid_section {
+    /* background: #000000; */
+  }
+  /* line 434, ../scss/app.scss */
+  body .contacts, .coming_soon .mid_section .contacts {
+    border: 0;
+  }
+  /* line 438, ../scss/app.scss */
+  body .social-soon-wrap, .coming_soon .mid_section .social-soon-wrap {
+    padding-bottom: 5%;
+    width: 95%;
+  }
 }

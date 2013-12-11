@@ -12,35 +12,40 @@
   <body class="coming_soon">
     <div class = "header">
       <img src="img/logo_without_text.png" alt="logo without text">
+
       
-        <iframe width="1280" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=214232768540764335702.0004ed3d0abd629a117eb&amp;ie=UTF8&amp;t=m&amp;ll=-1.292232,36.816419&amp;spn=0.003218,0.013722&amp;z=17&amp;iwloc=0004ed3d0ac63ed0780dc&amp;output=embed"></iframe>
+      <iframe width="1280" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=214232768540764335702.0004ed3d0abd629a117eb&amp;ie=UTF8&amp;t=m&amp;ll=-1.292232,36.816419&amp;spn=0.003218,0.013722&amp;z=17&amp;iwloc=0004ed3d0ac63ed0780dc&amp;output=embed"></iframe>
     </div><!--/header-->
 
     <div class="mid_section">
       <div class="row">
-        <ul class="large-block-grid-4">
+        <!-- <ul class="large-block-grid-40"> -->
 
-            <li class="small-3 columns">
+            <div class="large-3 small-12 columns main">
               <h6>NEW WEBSITE COMING SOON</h6>
-            </li><!--/large-3 columns-->
+            </div><!--/large-3 small-1 columns-->
 
-            <li class="small-3 columns">
-              <ul class="location">
-                <li>Corporate Headquarters</li>
-                <li>Capitol Hill Towers</li>
-                <li>6th Floor, Nairobi, Kenya</li>
-              </ul>
-            </li><!--/large-3 columns-->
+            <div class="large-6 small-12 columns contacts">
+              <div class="row">
 
-            <li class="small-3 columns">
-              <ul class="contact">
-                <li>TEL: 020 2962000</li>
-                <li>EMAIL: info@korient.co.ke</li>
-              </ul>
-            </li><!--/large-3 columns-->
+              <div class="large-6 small-6 columns location">
+                <ul class="vcard">
+                  <li>Corporate Headquarters</li>
+                  <li>Capitol Hill Towers</li>
+                  <li>6th Floor, Nairobi, Kenya</li>
+                </ul>
+              </div><!--/small-3 columns-->
 
+              <div class="large-6 small-6 columns contact">
+                <ul class="vcard">
+                  <li>TEL: 020 2962000</li>
+                  <li>EMAIL: info@korient.co.ke</li>
+                </ul>
+              </div><!--/small-3 columns-->
+            </div>
+          </div>
 
-            <li class="small-2 columns">
+            <div class="large-3 small-12 columns social-soon-wrap">
               <ul class="social_soon">
                 <li>
                     <a class="facebook" href="#"> <img src="img/fb.png"> </a>
@@ -49,28 +54,52 @@
                     <a class="twitter" href="#"> <img src="img/tw.png"> </a>
                   </li>
               </ul>
-            </li><!--/large-3 columns-->
-        </ul><!--/large-block-grid-4-->
+            </div><!--/large-3 columns-->
+        </ul><!--/large-block-grid-4--v
 
         
       </div><!--/row-->
     </div><!--/mid_section-->
 
 
+    <ul data-orbit>
+      <li>
+        <div class="holder">
+          <img src="img/damaged.png" alt="slider 1">
+          <div class="text">
+            <h5>Orient Motor Pack</h5>
+            <p>Your home is your castle why not protect it like one?</p>
+            <p>Orient Home is affordable insurance that covers your residential property in the event of a fire or theft.</p>
+            <p>The cover protects your residential property and
+            assets such as buildings, furniture & fixtures including all household equipment and personal items. What’s more, this cover gives you free ambulance rescue
+            service.</p>
+            <p>Sleep Content, Because You Can!</p>
+            <a href="" class="button tiny radius">INSURE</a>
+          </div><!-- /text -->
+        </div><!-- /holder -->
+      </li>
+      <li>
+        <div class="holder">
+          <img src="img/damaged.png" alt="slider 1">
+          <div class="text">
+            <h5>Orient Motor Pack</h5>
+            <p>Your home is your castle why not protect it like one?</p>
+            <p>Orient Home is affordable insurance that covers your residential property in the event of a fire or theft.</p>
+            <p>The cover protects your residential property and
+            assets such as buildings, furniture & fixtures including all household equipment and personal items. What’s more, this cover gives you free ambulance rescue
+            service.</p>
+            <p>Sleep Content, Because You Can!</p>
+            <a href="" class="button tiny radius">INSURE</a>
+          </div><!-- /text -->
+        </div><!-- /holder -->
+      </li>
+    </ul>
 
-    <div class="holder">
-      <img src="img/damaged.png" alt="slider 2">
-      <div class="text">
-        <h5>Orient Motor Pack</h5>
-        <p>Your home is your castle why not protect it like one?</p>
-        <p>Orient Home is affordable insurance that covers your residential property in the event of a fire or theft.</p>
-        <p>The cover protects your residential property and
-        assets such as buildings, furniture & fixtures including all household equipment and personal items. What’s more, this cover gives you free ambulance rescue
-        service.</p>
-        <p>Sleep Content, Because You Can!</p>
-      </div><!-- /text -->
-    </div><!-- /holder -->
-
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
 
   </body>
 </html>
